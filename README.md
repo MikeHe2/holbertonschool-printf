@@ -1,11 +1,11 @@
-## holbertonschool-printf
+# holbertonschool-printf
 
-# Explenation
+## Explenation
 
 This is a project in which we will be creating our own printf function.
 
 
-# Requirements for the project
+## Requirements for the project
 
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using
  the options -Wall -Werror -Wextra -pedantic -std=gnu89.
@@ -20,7 +20,7 @@ This is a project in which we will be creating our own printf function.
 > gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 
-# Authorized functions and macros
+## Authorized functions and macros
 
 - write (**man 2 write**)
 - malloc (**man 3 malloc**)
@@ -30,7 +30,3 @@ This is a project in which we will be creating our own printf function.
 - va_copy (**man 3 va_copy**)
 - va_arg (**man 3 va_arg**)
 
-# Compilation
-
-- Your code will be compiled this way:
-'$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format \*.c'
