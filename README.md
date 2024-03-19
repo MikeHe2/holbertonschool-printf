@@ -1,2 +1,2 @@
 # holbertonschool-printf
-Creating our own pirntf.
+Creating our own printf.
