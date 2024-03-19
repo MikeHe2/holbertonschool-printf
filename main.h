@@ -6,9 +6,9 @@
 #include <stdlib.h>
 
 int _printf(const char *format, ...);
-
+int _putchar(char c);
 /**
- * currently only found one prototype, add more if needed
+ * currently done prototypes, add as needed
  */
 
 #endif
