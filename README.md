@@ -2,8 +2,8 @@
 
 ## Explanation
 
-This is a project in which we will be creating our own printf function.
-
+Project in which we will create a more simple version of printf (located in <stdio.h>).
+In our custom function we will work only on identifiers %c, %s, %d, %i, %%.
 
 ## Requirements for the project
 
@@ -30,10 +30,19 @@ This is a project in which we will be creating our own printf function.
 - va_copy (**man 3 va_copy**)
 - va_arg (**man 3 va_arg**)
 
-## Flowchart
-Use this link to open file with https://app.diagrams.net/
+## Task 0
+
+- Handling the identifiers of %c, %s, %%.
+- Returns: the number of characters printed (excluding the null byte used to end output to strings).
+- write output to stdout, the standard output stream.
+
+## Task 1
+
+- Handling identifiers %d and %i.
+- Returns: the number of characters printed (excluding the null byte used to end output to strings).
+- write output to stdout, the standard output stream.
 
 ## Authors
 
-- Angel Carrasquillo
-- Michael A. Hernández
+- Angel Carrasquillo - 8990@holbertonstudents.com
+- Michael A. Hernández - 9013@holbertonstudents.com
