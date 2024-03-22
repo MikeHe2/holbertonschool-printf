@@ -15,10 +15,7 @@ int prnt_char(va_list args)
 }
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> main
 /**
  * prnt_str - Print a string.
  *
