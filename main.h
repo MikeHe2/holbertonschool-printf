@@ -25,5 +25,7 @@ int functs(const char charac, va_list args);
 int prnt_char(va_list args);
 int prnt_str(va_list args);
 int prnt_percen(va_list args);
+int prnt_int(va_list args);
+
 
 #endif

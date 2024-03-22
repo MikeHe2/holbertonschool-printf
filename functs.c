@@ -13,12 +13,9 @@
 int functs(const char charac, va_list args)
 {
 	op_t oper[] = {
-		{"c", prnt_char},
-		{"s", prnt_str},
-		{"%", prnt_percen},
-		{"d", prnt_int},
-		{"i", prnt_int},
-		{NULL, NULL},
+		{"c", prnt_char}, {"s", prnt_str},
+		{"%", prnt_percen}, {"d", prnt_int},
+		{"i", prnt_int}, {NULL, NULL},
 		};
 
 	int i;
