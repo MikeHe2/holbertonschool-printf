@@ -21,11 +21,7 @@ int prnt_char(va_list args)
  *
  * @args: String to print.
  *
-<<<<<<< HEAD
  * Return: Number of arguments
-=======
- * Return: Return of arguments.
->>>>>>> main
  */
 
 int prnt_str(va_list args)
@@ -47,21 +43,12 @@ int prnt_str(va_list args)
 	return (counter);
 }
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 /**
  * prnt_percen - Print percent symbol.
  *
  * @args: Is not taken as a format.
  *
-<<<<<<< HEAD
  * Return: Return 1.
-=======
- * Return: .
->>>>>>> main
  */
 
 int prnt_percen(__attribute__((unused))va_list args)
@@ -70,8 +57,6 @@ int prnt_percen(__attribute__((unused))va_list args)
 
 	return (1);
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -117,4 +102,3 @@ int prnt_int(va_list args)
 	}
 	return (len);
 }
->>>>>>> main
