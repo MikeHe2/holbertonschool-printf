@@ -30,9 +30,6 @@ This is a project in which we will be creating our own printf function.
 - va_copy (**man 3 va_copy**)
 - va_arg (**man 3 va_arg**)
 
-## Flowchart included
-- Open a web browser with URL https://app.diagrams.net/ and "open existing flowchart" to see it.
-
 ## Authors
 
 - Angel Carrasquillo
