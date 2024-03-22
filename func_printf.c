@@ -15,12 +15,13 @@ int prnt_char(va_list args)
 }
 
 
+
 /**
  * prnt_str - Print a string.
  *
  * @args: String to print.
  *
- * Return: Number of arguments
+ * Return: Return of arguments.
  */
 
 int prnt_str(va_list args)
@@ -43,12 +44,13 @@ int prnt_str(va_list args)
 }
 
 
+
 /**
  * prnt_percen - Print percent symbol.
  *
  * @args: Is not taken as a format.
  *
- * Return: Return 1.
+ * Return: .
  */
 
 int prnt_percen(__attribute__((unused))va_list args)
@@ -57,3 +59,49 @@ int prnt_percen(__attribute__((unused))va_list args)
 
 	return (1);
 }
+
+
+
+/**
+ * prnt_int - Print numbers.
+ *
+ * @args: Number of arguments.
+ *
+ * Return: Return length of arguments
+ */
+
+int prnt_int(va_list args)
+{
+	int val = va_arg(args, int);
+	unsigned int num, tmp, len = 0;
+	unsigned int counter = 1;
+
+	if (val < 0)
+	{
+		_putchar('-');
+		nums = val * -1;
+		len++
+	}
+	else
+	{
+		num = val;
+	}
+
+	temp = num
+
+	while (temp != 9)
+	{
+		temp = temp / 10;
+		counter = counter * 10;
+
+	}
+	while (counter != 0)
+	{
+		len = len + _putchar (((num / counter) % 10) + '0');
+		counter = counter / 10;
+	}
+	return (len);
+}
+
+
+
