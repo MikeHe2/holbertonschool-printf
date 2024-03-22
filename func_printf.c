@@ -72,36 +72,35 @@ int prnt_percen(__attribute__((unused))va_list args)
 
 int prnt_int(va_list args)
 {
+	int len = 0;
 	int val = va_arg(args, int);
-	unsigned int num, tmp, len = 0;
+	unsigned int num, tmp;
 	unsigned int counter = 1;
+
 
 	if (val < 0)
 	{
-		_putchar('-');
-		nums = val * -1;
-		len++
+		len = len + _putchar('-');
+		num = val * -1;
 	}
 	else
 	{
 		num = val;
 	}
 
-	temp = num
+	tmp = num;
 
-	while (temp != 9)
+	while (tmp > 9)
 	{
-		temp = temp / 10;
+		tmp = tmp / 10;
 		counter = counter * 10;
 
 	}
-	while (counter != 0)
+	while (counter >= 1)
 	{
-		len = len + _putchar (((num / counter) % 10) + '0');
+		_putchar (((num / counter) % 10) + '0');
 		counter = counter / 10;
+		len++;
 	}
 	return (len);
 }
-
-
-
